@@ -1,10 +1,10 @@
 - 👋 Hi, I’m @ssamant123
 - 👀 I’m interested in Medicine, Science, AI, Investing, and Business
 - 🌱 I’m currently learning Prompt Engineering
-- 💞️ I’m looking to collaborate on developing new prompts for education, research and business
+- 💞️ I’m looking to collaborate on developing new prompts for education, research, and business
 - 📫 How to reach me 
 - 😄 Pronouns: 
-- ⚡ Fun fact: 
+- ⚡ Fun fact: I shot a Hole-in-one 6 months after learning to play. Not so fun: my game has gone downhill since.
 
 <!---
 ssamant123/ssamant123 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
