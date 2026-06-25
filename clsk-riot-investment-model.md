@@ -13,14 +13,14 @@ Lines flagged *(est.)* are analyst estimates, not company-disclosed.
 |---|---|---|
 | Price | ~$17.24 | ~$28.63 |
 | Market cap | ~$4.5B | ~$10.8B |
-| Shares out | ~261M *(est. from cap/price)* | ~378M |
+| Shares out | **~268M diluted** (Q2 FY26; ~281M recent) | ~378M |
 | Self-mining hashrate | ~50 EH/s | ~42.5 EH/s (~4.3% network) |
 | Monthly BTC production | ~640–671 (May: 671) | ~16.6/day → ~498/mo (Q1: 1,473) |
 | Annualized production | ~7,900 BTC *(est.)* | ~6,060 BTC *(est.)* |
-| Cash cost/BTC (ex-D&A) | ~$40,000 *(est. — not disclosed in data)* | $44,629 (disclosed Q1'26) |
+| Cash cost/BTC (ex-D&A) | ~$40–43K *(est.; Q2 cost of rev ~$81.7M; mgmt cited ~$34K marginal)* | $44,629 (disclosed Q1'26) |
 | BTC treasury | ~13,500 BTC (~$0.93B) | 18,005 BTC (~$1.6B) |
 | Cash | ~$260M | ~$310M |
-| Long-term debt | ~$1.8B (2030/2032 converts) | Lower; BTC-collateralized |
+| Long-term debt | **$1.82B zero-coupon converts** ($650M '30 + $1.15B '32) | Lower; BTC-collateralized |
 | AI/HPC status | Meta talks, 250 MW Sandersville (unsigned) | AMD lease signed + $33.2M Q1 DC income; nuclear MOU |
 | Approved/contracted power | ~1.8 GW | ~1.7 GW |
 | Consensus | Strong Buy, PT ~$19.69 ($14–27) | Buy/Strong Buy, PT ~$23–29 ($24.50–42 bull) |

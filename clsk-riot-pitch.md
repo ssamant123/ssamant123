@@ -82,8 +82,10 @@ accumulating exactly that scarce asset. The repricing is underway and measurable
 - Texas entry: **Sealy (285 MW approved)**, **Brazoria (600 MW, first 300 MW
   ERCOT-approved)**; plus Jackson TN (60 MW) and Cheyenne WY (110 MW).
 - Management framing: **"Mining funds the platform; AI monetizes it."**
-- Most efficient self-mining fleet (~50 EH/s), but carries **~$1.8B convertible debt**
-  vs. ~$1.0B equity; AI revenue still **prospective (zero signed)**.
+- Most efficient self-mining fleet (~50 EH/s, peak fleet efficiency **16.07 J/TH** as
+  of May 2026), but carries **~$1.82B of zero-coupon convertibles** ($650M due 2030 +
+  $1.15B due 2032) vs. ~$0.99B equity; ~268M diluted shares. AI revenue still
+  **prospective (zero signed)**.
 
 ---
 
@@ -100,9 +102,12 @@ SG&A, interest, and treasury marks. Illustrative; production held constant.
 | $100,000 | ~$336M | ~$474M |
 | $120,000 | ~$457M | ~$632M |
 
-*CLSK cost/BTC is an estimate (not disclosed) off a ramping fleet — indicative only;
-and CLSK gross profit must first service ~$1.8B debt, so less reaches equity than
-RIOT's.* The AI lease layer (BTC-decoupled) sits on top of all of this.
+*CLSK cost/BTC is an estimate (Q2 cost of revenues ~$81.7M implies ~$40–43K/BTC;
+mgmt has historically cited ~$34K marginal) off a ramping fleet — indicative only.
+Note CLSK's ~$1.82B of converts are **zero-coupon** ($650M due 2030 + $1.15B due
+2032), so there is **no annual cash interest drag** — the risk is dilution/refinancing
+at maturity, not debt service.* The AI lease layer (BTC-decoupled) sits on top of all
+of this.
 
 ---
 
@@ -148,5 +153,24 @@ Bitcoin cash engine — not Bitcoin bets with a power side-business.**
 
 *Primary sources (Riot/CleanSpark 8-Ks, AMD & Corsicana disclosures, Bernstein
 power-edge note, BTC price/production-cost data, analyst targets) are listed in the
-companion files. Recommend verifying estimated figures — especially CLSK cost/BTC and
-share count — against the next 10-Q/10-K before acting.*
+companion files.*
+
+---
+
+### Verification status (June 25, 2026)
+Figures cross-checked against filing-sourced data (direct SEC EDGAR access is blocked
+by this environment's network policy, so verification used filing-quoting sources —
+StockTitan, earnings transcripts, stockanalysis.com — via search).
+
+**Confirmed:** CLSK total debt $1.82B; equity $0.99B; BTC treasury $925.2M; RIOT cost
+$44,629/BTC, 18,005 BTC, 1,473 BTC produced, 42.5 EH/s, $33.2M Q1 data-center income.
+
+**Corrected from earlier drafts:** (1) CLSK converts are **zero-coupon** (no cash
+interest) — risk is dilution/refinancing at 2030/2032 maturities, not debt service;
+(2) CLSK diluted shares **~268M** (not the ~261M cap/price estimate); (3) CLSK fleet
+peak efficiency **16.07 J/TH** as of May 2026 (the 21.94 J/TH figure was stale); (4)
+CLSK cost/BTC estimate ~$40–43K is defensible vs. Q2 cost of revenues (~$81.7M).
+
+**Still unverified (recommend checking the 10-Q/10-K directly):** exact CLSK
+*marginal* cost-to-mine per BTC for Q2 FY26 (not cleanly disclosed); precise
+annualized production off the ramping fleet.
