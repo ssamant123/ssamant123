@@ -54,6 +54,11 @@ accumulating exactly that scarce asset. The repricing is underway and measurable
 - **Key nuance:** AI needs *firm, always-on* power, not the interruptible load that
   made miners useful for grid balancing. Winners are operators who can deliver
   AI-grade critical IT capacity — separating signed leases from press releases.
+- **Smart-money corroboration:** Leopold Aschenbrenner's ~$13.7B Situational Awareness
+  LP is long the physical layer / short the chips, and **aggressively added both names**
+  in its Q1 2026 13F — CLSK ~+650% (to 12.28M sh), RIOT ~+86% (to 11.50M sh). Note: his
+  long-miner book is *hedged* with ~$8.5B of chipmaker puts; a naked long is not. See
+  `aschenbrenner-13f-corroboration.md`.
 
 ---
 
