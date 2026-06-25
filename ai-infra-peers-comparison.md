@@ -20,7 +20,12 @@ before adding to the speculative sleeve.
 | AI revenue status | Live $33.6M/qtr → target **$3.7–4.4B ARR** end-2026 | ~350 MW energized, 180 MW billing | 100 MW RFS; 2nd bldg mid-2026 | RIOT $33.2M/q; CLSK $0 |
 | Power | 480 MW AI ('26) → 1,210 MW ('27) | ~3 GW pipeline | 400 MW contracted, 1+ GW under study | CLSK 1.8 / RIOT 1.7 GW |
 | Market cap | large (verify) | ~$9.3B | ~$2.3B (on ~$220M rev) | $4.5B / $10.8B |
-| Key wrinkle | GPU-cloud capex/tech risk; NVIDIA-backed; premium valuation | **Being acquired by CoreWeave (~$9B stock)** | **Near-total CoreWeave concentration** | — |
+| Key wrinkle | GPU-cloud capex/tech risk; NVIDIA-backed; premium valuation | Standalone — CoreWeave merger **terminated** Oct 2025 (shareholders voted no); still partnered commercially | **Near-total CoreWeave concentration** | — |
+
+**CORRECTION (verified June 25, 2026):** Earlier draft flagged CORZ as "being acquired."
+That is wrong — CoreWeave's ~$9B all-stock bid was **rejected by Core Scientific
+shareholders (~203M against / 21M for) and terminated Oct 30, 2025.** CORZ trades
+independently on Nasdaq (~$9.3B cap) and continues the commercial CoreWeave partnership.
 
 ---
 
