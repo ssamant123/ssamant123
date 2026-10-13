@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>com.sandeep.claude-remote</string>
+
+  <!-- Replace YOURUSER with your macOS short username (run: whoami) -->
+  <key>ProgramArguments</key>
+  <array>
+    <string>/bin/bash</string>
+    <string>/Users/YOURUSER/bin/claude-remote.sh</string>
+  </array>
+
+  <!-- launchd starts with a bare PATH; include Homebrew and the Claude installer location -->
+  <key>EnvironmentVariables</key>
+  <dict>
+    <key>PATH</key>
+    <string>/Users/YOURUSER/.local/bin:/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin</string>
+  </dict>
+
+  <!-- Run at login, then every 5 minutes as a watchdog (re-mounts / restarts if needed) -->
+  <key>RunAtLoad</key>
+  <true/>
+  <key>StartInterval</key>
+  <integer>300</integer>
+
+  <key>StandardOutPath</key>
+  <string>/Users/YOURUSER/Library/Logs/claude-remote.launchd.log</string>
+  <key>StandardErrorPath</key>
+  <string>/Users/YOURUSER/Library/Logs/claude-remote.launchd.log</string>
+</dict>
+</plist>
