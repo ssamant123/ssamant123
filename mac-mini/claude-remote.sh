@@ -3,9 +3,9 @@
 # `claude remote-control` session is running inside tmux. Safe to run repeatedly.
 
 # ---- edit these ----
-NAS_HOST="synology.local"          # or the NAS's reserved IP, e.g. 192.168.1.20
-NAS_USER="sandeep"                 # DSM account with SMB access
-NAS_SHARE="Projects"               # shared folder name in DSM
+NAS_HOST="192.168.4.202"           # reserve this IP for the NAS in your router
+NAS_USER="SunnyMed"                 # DSM account with SMB access
+NAS_SHARE="NAS_ROOT"                # mounts at /Volumes/NAS_ROOT
 PROJECTS_SUBDIR=""                 # optional subfolder inside the share, e.g. "code"
 # --------------------
 
