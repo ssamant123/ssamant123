@@ -35,5 +35,5 @@ fi
 # 2. Start the Remote Control session if it isn't already running.
 if ! tmux has-session -t "$SESSION" 2>/dev/null; then
   log "starting claude remote-control in $WORKDIR"
-  tmux new-session -d -s "$SESSION" -c "$WORKDIR" "claude remote-control"
+  tmux new-session -d -s "$SESSION" -c "$WORKDIR" "claude remote-control --name \"Mac mini\""
 fi
