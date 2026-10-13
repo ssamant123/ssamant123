@@ -6,7 +6,7 @@
 NAS_HOST="192.168.4.202"           # reserve this IP for the NAS in your router
 NAS_USER="SunnyMed"                 # DSM account with SMB access
 NAS_SHARE="NAS_ROOT"                # mounts at /Volumes/NAS_ROOT
-PROJECTS_SUBDIR=""                 # optional subfolder inside the share, e.g. "code"
+PROJECTS_SUBDIR="05_PROJECTS"       # Claude starts here, not at the share root
 # --------------------
 
 MOUNT_POINT="/Volumes/${NAS_SHARE}"
