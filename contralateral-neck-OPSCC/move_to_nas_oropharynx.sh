@@ -16,7 +16,11 @@ fi
 mkdir -p "$DEST"
 
 # Copy everything (including .gitignore). --ignore-existing never overwrites files on the NAS.
-rsync -a --ignore-existing --exclude '.DS_Store' "$SRC/" "$DEST/"
+if command -v rsync >/dev/null; then
+  rsync -a --ignore-existing --exclude '.DS_Store' "$SRC/" "$DEST/"
+else
+  cp -Rn "$SRC/." "$DEST/"
+fi
 
 # Empty working folders that git does not track
 mkdir -p "$DEST"/02_literature_review/pdfs \
