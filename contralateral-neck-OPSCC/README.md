@@ -46,6 +46,7 @@ which question.
 | A. Bilateral ND | 75–80 | Pathology (pN status of contralateral neck) | Occult contralateral rate when indications are present; which indication carries the risk; whether ipsilateral nodal burden predicts it |
 | B. Ipsilateral ND only | ~170 | Clinical/radiologic contralateral failure over follow-up | Real-world contralateral failure in (mostly) lateralized tumors, **stratified by contralateral RT received** |
 | B-key. Lateralized, ≥2 ipsilateral pN+, **no** contralateral RT | unknown; likely small | Contralateral failure | The controversy itself |
+| **A-pN0. Bilateral ND, contralateral pN0, contralateral RT omitted per institutional policy** | ~60–70 | Contralateral failure after pathologic staging | Whether pathologic staging can replace elective contralateral RT. Strongest single dataset here, but WashU (Last 2020, Wang 2025) and Hamburg (Belau 2023) have already reported 0 failures |
 
 **Retrieve the count for B-key before writing anything else.** If most adjuvant RT at NM was bilateral
 in this era, B-key may be under 20 patients, and the study becomes mainly a Cohort A paper.
@@ -73,6 +74,22 @@ contralateral metastasis? Stratify it by indication:
 - Tonsil primary with BOT extension
 - Tonsil primary with soft-palate extension
 - Equivocal contralateral node on imaging (analyze separately; these are not truly occult)
+
+**Aim 1b (Cohort A-pN0; likely the headline).** Contralateral regional failure when contralateral RT was
+omitted because the contralateral ND was pN0. Prerequisites for the result to be credible:
+- **"Omitted" must be defined by dose, not intent.** For BOT and near-midline primaries, the primary-bed PTV
+  often delivers 30–50 Gy to contralateral level II incidentally. Extract the mean and D95 to contralateral
+  level II from the RT plans. Otherwise a reviewer will say the neck *was* treated.
+- **Explain the exceptions.** Record why each pN0 patient who still got contralateral RT received it. That
+  group defines the selection.
+- **Retropharyngeal and undissected levels.** A pN0 dissection doesn't sample the contralateral RP nodes or
+  level IIb/V if those weren't dissected. Report failures by site.
+- **The trade is dissection for radiation, not "no treatment."** Payoff data are needed to make that case:
+  contralateral parotid and submandibular mean dose, feeding-tube dependence, and MDADI/xerostomia scores where
+  available, compared with patients who received bilateral RT. Shoulder and nerve morbidity of the contralateral
+  ND belongs on the other side of the ledger.
+- **Precision:** 0/65 failures gives a 95% upper bound of 5.5%, 0/55 gives 6.5%, and 1/65 gives 8.3%. Report a minimum
+  follow-up (≥24 months), because most regional failures occur in the first 2 years.
 
 **Aim 2 (Cohort A).** Does ipsilateral nodal burden predict contralateral pN+? Burden means the number of
 pN+ nodes (0 / 1 / 2–4 / ≥5), ENE, level IV/V involvement, and largest node size. This is the

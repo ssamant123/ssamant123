@@ -9,6 +9,9 @@ Lock this SAP before unblinded analysis. Register it on OSF if you want the "pre
   - Exclude contralateral cN+ from the occult-rate denominators
 - **Cohort B:** p16+ OPSCC, primary surgery, ipsilateral ND only.
   - **B-key:** lateralized (pre-specified definition), ≥2 ipsilateral pN+, contralateral elective dose 0 Gy
+- **A-pN0 (co-primary):** A0 ∪ A1 with contralateral pN0 and contralateral level II mean dose <30 Gy
+  (pre-specified cut; sensitivity analysis at <20 Gy). Patients with pN0 who still got contralateral RT form the
+  comparison group, analyzed descriptively with documented reasons.
 - **Comparison:** p16– cases, analyzed descriptively
 
 ## Endpoints
@@ -32,6 +35,9 @@ Lock this SAP before unblinded analysis. Register it on OSF if you want the "pre
 4. **B-key:** report events/n, the exact CI, and the follow-up distribution. Use the rule of three if there are 0 events. Do not claim
    non-inferiority or "safety" unless the upper 95% bound is below a threshold pre-specified here: ____ %
    (suggest 5%, consistent with the risk most RT guidelines accept for omitting elective treatment).
+4b. **A-pN0:** contralateral regional failure as events/n with an exact CI, and cumulative incidence at 2 and 3 years.
+   Report the site of every failure (dissected level / undissected level / RP). Functional comparison vs bilateral
+   RT recipients: contralateral parotid dose, feeding-tube rate, MDADI (descriptive or Wilcoxon; no causal claim).
 5. **Inter-rater reliability (Aim 4):** Cohen's κ for categorical BOT and palate involvement, and ICC(2,1) for
    distance from midline in mm. Two blinded reviewers, n ≥ 50 cases (κ precision ±~0.15).
 6. **Missing data:** Report missingness per variable. Use complete-case analysis for the primary endpoints;
