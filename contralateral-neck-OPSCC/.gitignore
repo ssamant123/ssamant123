@@ -1,0 +1,14 @@
+# NEVER commit patient-level data. This repo holds methods, code, and drafts only.
+*.csv
+!03_data_collection/redcap_data_dictionary.csv
+*.xlsx
+*.xls
+*.sav
+*.dta
+*.rds
+*.RData
+*.sas7bdat
+*.parquet
+04_statistical_analysis/output/
+**/PHI*/
+**/raw_data/
