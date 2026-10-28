@@ -13,9 +13,22 @@
 ## 1. The question as first posed, and the problem with it
 
 **Clinical controversy:** Can patients with a lateralized HPV+ OPSCC and *multiple ipsilateral nodes*
-(AJCC-7 N2b; AJCC-8 cN1) safely receive ipsilateral-only treatment? Surveys suggest most radiation
-oncologists still treat the contralateral neck. CCTG HN.11 tests whether lymphoscintigraphy can
-select which cN0 contralateral necks to treat.
+(AJCC-7 N2b; AJCC-8 cN1) safely receive ipsilateral-only treatment?
+
+**Corrections from the literature review (see `02_literature_review/evidence_brief.md`):**
+- **The survey premise is too broad.** In the 2021 international survey (Oral Oncol, PMID 33524796; 222
+  respondents), 97–99% of respondents treat a small N0 lateralized tonsil cancer **unilaterally**, and only
+  15% of radiation oncologists go bilateral for a single node under 3 cm. Radiation oncologists switch to
+  bilateral treatment for palate or BOT extension (100%), midline proximity (84%), and rising nodal burden.
+  That is precisely the population of your bilateral neck dissection cohort.
+- **HN.11 is "SELECT" (NCT05451004).** It is a phase III non-inferiority RCT of SPECT-CT lymphatic-mapping-guided
+  contralateral neck **radiotherapy** vs. standard bilateral RT, with DFS as the primary endpoint. It is not a
+  surgical sentinel node trial, and it enrolls only patients who would otherwise get bilateral RT.
+- **Occult-rate papers already exist.** Last 2020 (HPV+ BOT: 21% occult), Yao 2021 (cT1–2: none occult in cN0),
+  and Kornfeld 2024 (multiple ipsilateral nodes and ENE as predictors). "Our occult contralateral rate" alone
+  is not novel. What is still unpublished: (1) contralateral pN+ by ipsilateral node count in lateralized
+  tumors; (2) contralateral pN+ stratified by **measured** palate/BOT extension; (3) the **reliability** of
+  judging palate/BOT involvement, which no study has measured. Lead with these.
 
 **The problem:** The ~75–80 bilateral neck dissections at Northwestern were done *because* of
 features that raise contralateral risk: BOT primary, BOT or palate extension, or an equivocal or
@@ -108,8 +121,9 @@ consequences of contralateral failure: salvage success, survival after salvage.
 - **Multi-institutional pooling.** TORS cohorts at other centers (e.g., Mayo, Penn, MSKCC, Pittsburgh) have
   the same data. Pooling is the only realistic route to the B-key sample size. Consider building the REDCap
   instrument so it can be shared from day one.
-- **Engage the HN.11 investigators** (CCTG / Canadian HN group). A surgical pathology series with blinded
-  imaging is complementary to their trial, and a joint paper or abstract is plausible.
+- **Engage the HN.11/SELECT investigators** (CCTG; de Almeida, Toronto). Pathologic contralateral rates in exactly
+  their eligibility population (lateralized, not crossing midline) are complementary to their trial. Ask whether
+  their Toronto TORS data could be pooled.
 - **Lurie Cancer Center Scientific Review Committee.** Cancer-related protocols at NU go through
   scientific review before or alongside IRB. Confirm whether that applies to retrospective chart reviews.
   [likely]
