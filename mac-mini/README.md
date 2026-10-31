@@ -1,7 +1,9 @@
 # Mac mini → Claude Remote Control (Synology projects)
 
-Keeps a `claude remote-control` session running on the Mac mini, rooted in the
-Synology projects share, so you can drive it from the Claude app on your phone.
+Keeps one `claude remote-control` server running on the Mac mini for every folder
+listed in `~/claude-folders.txt` (paths relative to the NAS share), so you can drive
+any of them from the Claude app on your phone or claude.ai/code on another computer.
+Add a folder = add a line; it comes online within 5 minutes.
 
 ## One-time prep
 
@@ -21,7 +23,7 @@ Synology projects share, so you can drive it from the Claude app on your phone.
 ```bash
 mkdir -p ~/bin
 cp claude-remote.sh ~/bin/ && chmod +x ~/bin/claude-remote.sh
-# edit NAS_HOST / NAS_USER / NAS_SHARE at the top of ~/bin/claude-remote.sh
+printf '04_SHARED/Travel\n05_PROJECTS\n' > ~/claude-folders.txt
 
 sed "s/YOURUSER/$(whoami)/g" com.sandeep.claude-remote.plist \
   > ~/Library/LaunchAgents/com.sandeep.claude-remote.plist
@@ -35,7 +37,8 @@ launchctl bootstrap gui/$(id -u) ~/Library/LaunchAgents/com.sandeep.claude-remot
 ```bash
 launchctl print gui/$(id -u)/com.sandeep.claude-remote | grep -E 'state|last exit'
 tail -f ~/Library/Logs/claude-remote.log
-tmux attach -t claude        # see the live session (detach: Ctrl-b d)
+tmux ls                      # one rc-<folder> session per listed folder
+tmux attach -t rc-Travel     # see one live (detach: Ctrl-b d)
 
 # reload after edits
 launchctl bootout gui/$(id -u)/com.sandeep.claude-remote
