@@ -29,6 +29,7 @@ while IFS= read -r line || [ -n "$line" ]; do
   line="${line%%#*}"; line="$(echo "$line" | sed 's/^[[:space:]]*//;s/[[:space:]]*$//')"
   [ -z "$line" ] && continue
   case "$line" in /*) dir="$line" ;; *) dir="${MOUNT_POINT}/${line}" ;; esac
+  dir="${dir%/.}"; dir="${dir%/}"
   name="$(basename "$dir")"
   session="rc-$(printf '%s' "$name" | tr -c 'A-Za-z0-9_-' '_')"
   if [ ! -d "$dir" ]; then
